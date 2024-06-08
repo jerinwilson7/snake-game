@@ -133,7 +133,6 @@ const handleKeyPress = (event) => {
     (!gameStarted && event.code === "Space") ||
     (!gameStarted && event.code === " ")
   ) {
-    //    console.log("game-started")
     initializeGame();
   } else {
     switch (event.key) {
