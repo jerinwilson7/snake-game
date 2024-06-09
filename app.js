@@ -236,5 +236,3 @@ const updateScore = () => {
   const currentScore = snake.length - 1;
   scoreText.textContent = currentScore.toString().padStart(3, "0");
 };
-
-// draw();
